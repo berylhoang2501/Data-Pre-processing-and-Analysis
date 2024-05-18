@@ -95,4 +95,40 @@ tứ phân vị iqr = q3 - q1
 
 - sử dụng group by trong pandas
 
+**Biểu đồ**
+
+<img width="753" alt="Ảnh màn hình 2024-05-18 lúc 10 36 09" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/c79a6c5a-5b6f-403f-b9ee-dcc1f132d663">
+
+**Kiểm định giả thuyết**
+
+Ví dụ: Dùng kiểm định ANOVA để xem có mối tương quan giữa các biến Pclass, biển Sex và biến Survived?
+
+- Các biến độc lập (input): Pclass và Sex
+  
+- Biến phụ thuộc (output): Survived
+
+Nếu kết quả kiểm định xét có mối tương quan thì là do ngẫu nhiên hay có ýnghĩa thống kê?
+
+**Phân tích dữ liệu cần lưu ý**
+
+- Không có kỹ năng phân tích đúng.
+  
+- Sử dụng các công cụ sai để phân tích dữ liệu. Ví dụ: sử dụng z-score khi dữ liệu không có phân phối chuẩn. (lúc nào cũng phải xem xét lý do vì sao lại lựa chọn công cụ đó để phân tích)
+  
+ - Để bias ảnh hưởng đến kết quả. (sự thiên vị, cái lớn áp đảo cái nhỏ)
+ 
+-  Không tìm ra ý nghĩa thống kê. (ý nghĩa tìm ra có đúng trên tổng thể hay không)
+
+- Phát biểu không chính xác null hypothesis và alternate hypothesis.
+
+- Sử dụng graph và chart không chính xác, gây hiểu lầm. 
+
 ### 4. Quy trình phân tích dữ liệu
+
+**Quy trình Data Analysis**
+
+<img width="776" alt="Ảnh màn hình 2024-05-18 lúc 10 56 59" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/50e489e8-580b-4b94-9b9f-7121287aac28">
+
+<img width="811" alt="Ảnh màn hình 2024-05-18 lúc 11 00 54" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/74e06432-9810-4446-aa5c-ad6e78a3ccc2">
+
+ 1. Business Understanding (Xác định vấn đề kinh doanh cần giải quyết) -> 2. Data Requirements -> 3. Data Collection -> *4. Data Pre-processing (chiếm 60 đến 80% quy trình) ->  *5. Exploratory Data Analysis (EDA) -> *6. Modeling & Algorithms -> 7. Data Product -> 8. Communication
