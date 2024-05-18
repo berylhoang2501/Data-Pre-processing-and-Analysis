@@ -132,3 +132,5 @@ Nếu kết quả kiểm định xét có mối tương quan thì là do ngẫu 
 <img width="811" alt="Ảnh màn hình 2024-05-18 lúc 11 00 54" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/74e06432-9810-4446-aa5c-ad6e78a3ccc2">
 
  1. Business Understanding (Xác định vấn đề kinh doanh cần giải quyết) -> 2. Data Requirements -> 3. Data Collection -> *4. Data Pre-processing (chiếm 60 đến 80% quy trình) ->  *5. Exploratory Data Analysis (EDA) -> *6. Modeling & Algorithms -> 7. Data Product -> 8. Communication
+
+dữ liệu để train -> dữ liệu để test -> score (nếu điểm score thấp có nghĩa là mô hình học chưa tốt, điều này có thể phụ thuộc vào nhiều lý do và đây là lúc cần rà soát lại các bước trong quy trình để tìm ra ở bước nào đã gây ảnh hưởng đến việc học mô hình)
