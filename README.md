@@ -226,4 +226,22 @@ lý tưởng nhất là đưa dữ liệu về dạng không bị lệch thì m�
 
 #### Tích hợp dữ liệu
 
+- Nối các dataframe lại: sử dụng pandas.concat()
+
+-  Trộn các dataframe lại: sử dụng pandas.merge)
+
+thư viện glob 
+
+#### Xem thông tin cơ bản
+
+- shape, info, dtypes, head, tail, columns
+
+#### Xác định các thuộc tính
+
+- Xác định biến đầu vào (Input/ Independent) và biến đầu ra (Output/ Dependent).
+
+- Xác định các thuộc tính
+
+<img width="770" alt="Ảnh màn hình 2024-05-19 lúc 11 06 09" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/69ecaf15-6555-4c79-be19-f6fab5e180cb">
+
 ### 3. Sử dụng package dataprep để làm sạch dữ liệu
