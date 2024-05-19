@@ -16,6 +16,8 @@ clustering (phân cụm), classification (phân loại)
 
 <img width="570" alt="Ảnh màn hình 2024-05-18 lúc 09 06 07" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/771580c3-185f-47e2-b16b-0c38ce99c086">
 
+trung vị (median)  là một thống kê chỉ trung tâm của một tập hợp dữ liệu, được xác định bằng cách sắp xếp các giá trị theo thứ tự tăng dần và chọn giá trị ở giữa. Nếu tập dữ liệu có số lượng phần tử là số lẻ, trung vị là giá trị ở vị trí giữa. Nếu tập dữ liệu có số lượng phần tử là số chẵn, trung vị là trung bình của hai giá trị ở giữa. Trung vị được sử dụng để xử lý dữ liệu bị thiếu (missing values). Khi dữ liệu có các giá trị bị thiếu, bạn có thể thay thế các giá trị này bằng trung vị của các giá trị còn lại trong tập dữ liệu để giảm thiểu ảnh hưởng của các giá trị ngoại lệ (outliers). (giả sử có 1 dữ liệu bị outlier quá lớn thì khi dùng thống kê mean thì dữ liệu sẽ bị ảnh hưởng theo, trong khi đó nếu dùng trung vị thì sẽ không bị ảnh hưởng)
+
 **Thống kê suy luận (Inferential Statistics)**
 
 - đc học trg môn math
