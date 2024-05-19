@@ -18,6 +18,14 @@ clustering (phân cụm), classification (phân loại)
 
 trung vị (median)  là một thống kê chỉ trung tâm của một tập hợp dữ liệu, được xác định bằng cách sắp xếp các giá trị theo thứ tự tăng dần và chọn giá trị ở giữa. Nếu tập dữ liệu có số lượng phần tử là số lẻ, trung vị là giá trị ở vị trí giữa. Nếu tập dữ liệu có số lượng phần tử là số chẵn, trung vị là trung bình của hai giá trị ở giữa. Trung vị được sử dụng để xử lý dữ liệu bị thiếu (missing values). Khi dữ liệu có các giá trị bị thiếu, bạn có thể thay thế các giá trị này bằng trung vị của các giá trị còn lại trong tập dữ liệu để giảm thiểu ảnh hưởng của các giá trị ngoại lệ (outliers). (giả sử có 1 dữ liệu bị outlier quá lớn thì khi dùng thống kê mean thì dữ liệu sẽ bị ảnh hưởng theo, trong khi đó nếu dùng trung vị thì sẽ không bị ảnh hưởng)
 
+Yếu vị (mode) là giá trị xuất hiện nhiều nhất trong một tập hợp dữ liệu. Một tập dữ liệu có thể có một yếu vị (unimodal), hai yếu vị (bimodal), hoặc nhiều yếu vị (multimodal). Nếu không có giá trị nào lặp lại, tập dữ liệu đó không có yếu vị. Yếu vị có thể được sử dụng để xử lý dữ liệu bị thiếu (missing values). Yếu vị là lựa chọn tốt khi bạn làm việc với dữ liệu phân loại (categorical data). (ví dụ điền giá trị phổ biến nhất trong tập dữ liệu)
+
+Phương sai (variance) là một thước đo thống kê cho thấy mức độ phân tán của các giá trị trong một tập dữ liệu xung quanh giá trị trung bình của nó. 
+
+Độ lệch chuẩn (standard deviation) là một thước đo thống kê biểu thị mức độ phân tán của các giá trị trong một tập dữ liệu so với giá trị trung bình của nó. Nó là căn bậc hai của phương sai và cung cấp một cách đo lường dễ hiểu hơn về sự phân tán vì nó có cùng đơn vị với dữ liệu ban đầu.
+
+Định Nghĩa Khoảng Tứ Phân Vị  (Interquartile Range - IQR): Khoảng tứ phân vị (IQR) là một thước đo thống kê biểu thị mức độ phân tán của dữ liệu, được tính bằng cách lấy hiệu số giữa giá trị phân vị thứ ba (Q3) và giá trị phân vị thứ nhất (Q1). Nó đại diện cho khoảng mà 50% dữ liệu trung tâm nằm trong đó, loại bỏ ảnh hưởng của các giá trị ngoại lệ.
+
 **Thống kê suy luận (Inferential Statistics)**
 
 - đc học trg môn math
