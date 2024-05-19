@@ -24,7 +24,7 @@ clustering (phân cụm), classification (phân loại)
 
 - Thống kê suy luận sử dụng kiểm định giả thuyết để xem có sự khác biệt giữa tham số của mẫu và của quần thể. Sự khác biệt đó là có ý nghĩa thống kê hay chỉ do ngẫu nhiên.
 
-- Một số kiểm định giả thuyết như: t-test, chi- square, ANOVA, ...
+- Một số kiểm định giả thuyết như: t-test, chi-square, ANOVA, ...
 
 -  Sử dụng kiểm định giả thuyết, có thể suy luận rằng mức độ hài lòng của mẫu có thể đại diện cho mức độ hài lòng của toàn bộ khách hàng
 (quần thể), với một hệ số tin cậy (thường chọn 0.95 ~ khoảng tin cậy 95%).
