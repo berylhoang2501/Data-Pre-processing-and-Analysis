@@ -1,5 +1,5 @@
 # Data-Pre-processing-and-Analysis
-## Bài 1: Tổng quan Data Analysis
+## Bài 1: Tổng quan Data Analysis (18/5/2024)
 ### 1. Giới thiệu
 
 thu thập dữ liêụ -> tiền xử lý dữ liệu -> sác xuất thống kê -> machine learning 
@@ -143,3 +143,51 @@ https://www.kaggle.com
 
 https://www.w3schools.com
 cần xem lại , matplotlib
+
+## Bài 2: Tổng quan Data Pre-processing (19/5/2024)
+### 1. Giới thiệu
+
+Dữ liệu trong thể giới thực thường là: 
+
+- Dữ liệu sai. 
+
+- Dữ liệu thiếu.
+
+- Dữ liệu trùng lặp.
+
+- Dữ liệu không nhất quán. (ví dụ nhập nơi ở có người nhập tphcm, tp hồ chí minh,..)
+
+- Dữ liệu có các giá trị ngoại lai (outlier).
+
+- Dữ liệu chưa được chuẩn hóa. (đo = skew, > 0 là lệch phải, <0 là lệch trái) . biểu đồ histogram gần xét phân phối chuẩn, lệch trái, lệch phải
+
+cần phải có trung vị trong trường hợp giá trị trung bình bị outlier
+
+lý tưởng nhất là đưa dữ liệu về dạng không bị lệch thì mô hình sẽ học tốt nhất, không bị nhiễu
+
+**Tiền xử lý dữ liệu - Làm sạch dữ liệu**
+
+### 2. Quy trình Data Pre-processing
+
+**Import thư viện**
+- NumPy là package hỗ trợ cho việc tính toán với Python.
+
+- Pandas là package hỗ trợ việc thao tác và phân tích dữ liệu
+
+- Matplotlib là package vẽ biểu đồ 2D của Python
+
+- Seaborn là package trực quan hóa dữ liệu Python dựa trên matplotlib, cung cấp giao diện cấp cao để vẽ biểu đồ thống kê hấp dẫn hơn.
+
+**Đọc/tích hợp dữ liệu, lựa chọn thuộc tính**
+
+**Kiểm tra dữ liệu thiếu (missing value), nhiễu (noise), ngoại lệ (outlier), trùng (duplicate), không nhất quán (inconsistencies)**
+
+**Kiểm tra dữ liệu phân loại (categorical data)**
+
+**Chuẩn hóa dữ liệu (Data standardizing)**
+
+**Kỹ thuật tính năng (feature engineering)**
+
+**Chuyển đổi dữ liệu (transformation)**
+
+**Chia d ữ liệu (Data splitting)**
