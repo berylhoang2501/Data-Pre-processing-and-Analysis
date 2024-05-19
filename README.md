@@ -190,4 +190,40 @@ lý tưởng nhất là đưa dữ liệu về dạng không bị lệch thì m�
 
 **Chuyển đổi dữ liệu (transformation)**
 
-**Chia d ữ liệu (Data splitting)**
+**Chia dữ liệu (Data splitting)**
+
+## Bài 3: Data Pre-processing (19/5/2024)
+
+### 1. Giới thiệu
+
+**Một số bước trong data pre-processing**
+
+- Làm sạch dữ liệu: Xử ýl dữ liệu bị thiếu, dữ liệu có các giá trị ngoại lệ.
+
+- Chuẩn hóa dữ liệu: Đảm bảo rằng dữ liệu ở định dạng chung và có cùng đơn vị đo lường.
+
+- Tạo mới đặc trưng (feature engineering):
+
+- Tạo ra các đặc trưng mới, rút trích đặc trưng đểcải thiện khả năng dự đoán của mô hình.
+
+**Kiểu dữ liệu cơ bản**
+- Kiểu chuỗi (string): Ví dụ: họ tên nhân viên; tên sản phẩm, địa ch khách hàng...
+
+- Kiểu số (numeric): số nguyên và số thực. Ví dụ: Tuổi kiểu số nguyên; Lương kiểu số thực.
+
+- Kiểu ngày (datetime): Ví dụ: ngày sinh; ngày mua hàng...
+
+- Kiểu Boolean: true/false; 1/0. Ví dụ: true:sống; false: chết...
+
+### 2. Các bước thực hiện
+
+![Ảnh màn hình 2024-05-19 lúc 10 48 40](https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/e9331626-5049-44fb-93d5-080dfbaa81b4)
+
+***A. Đọc dữ liệu và xem thông tin cơ bản***
+#### Đọc dữ liệu 
+
+- Tập tin (.CsV, .txt, json, XIsx, ...): sử dụng pandas
+
+#### Tích hợp dữ liệu
+
+### 3. Sử dụng package dataprep để làm sạch dữ liệu
