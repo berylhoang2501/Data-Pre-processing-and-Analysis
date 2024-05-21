@@ -26,6 +26,8 @@ Phương sai (variance) là một thước đo thống kê cho thấy mức đ�
 
 Định Nghĩa Khoảng Tứ Phân Vị  (Interquartile Range - IQR): Khoảng tứ phân vị (IQR) là một thước đo thống kê biểu thị mức độ phân tán của dữ liệu, được tính bằng cách lấy hiệu số giữa giá trị phân vị thứ ba (Q3) và giá trị phân vị thứ nhất (Q1). Nó đại diện cho khoảng mà 50% dữ liệu trung tâm nằm trong đó, loại bỏ ảnh hưởng của các giá trị ngoại lệ.
 
+<img width="524" alt="Ảnh màn hình 2024-05-22 lúc 02 17 30" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/ee342c53-e3fa-4e37-9e2f-b25b4484868f">
+
 **Thống kê suy luận (Inferential Statistics)**
 
 - đc học trg môn math
@@ -55,13 +57,17 @@ ví dụ tương quan thuận: số năm kinh nghiệm tăng, lương  tăng
 
 ví dụ tương quan nghịch: giá xe càng cao thì càng tiết kiệm xăng
 
-**Phân tích tương quan (Correlation Analysis)**
+**Phân tích hồi quy (Regression Analysis)**
 
 - là tiếp theo của phân tích tương quan 
 
 - Phân tích hồi quy khám phá mối quan hệ giữa một biến phụ thuộc (dependent) với một (nhiều) biến độc lập (independent).
   
 - Phân tích hồi quy đo lường sức mạnh mối quan hệ giữa các biến. Từ đó, sử dụng chúng vào mô hình để dự đoán.
+
+- Biến phụ thuộc (Dependent Variable) là biến đầu ra: Còn gọi là biến kết quả (outcome variable), là biến mà chúng ta muốn nó hiển thị kết quả đầu ra của mô hình (ví dụ biến Survived sẽ đại diện cho việc hành khách sống sót hay không sau thảm họa Titanic dựa trên hai giá trị là 0: Không sống sót và 1: Sống sót). 
+
+- Biến độc lập (Independent Variable) là các biến đầu vào: Còn gọi là biến dự báo (predictor variable), là các biến được sử dụng để dự đoán hoặc giải thích sự thay đổi trong biến phụ thuộc. Chúng độc lập và không bị ảnh hưởng bởi các biến khác trong mô hình hồi quy. (ví dụ Biến độc lập là Pclass, Sex, Age, SibSp, Parch, Fare, và Embarked (chúng ta sử dụng các biến này để dự đoán giá trị của biến Survived ).
 
 **Phân tích tình huống/ kịch bản (Scenario Analysis)**
 
