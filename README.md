@@ -254,6 +254,8 @@ thư viện glob
 
 #### Xác định các thuộc tính
 
+- hiểu rõ về tập dữ liệu (Cần biết rõ về kiểu dữ liệu và ý nghĩa của các cột, Cột nào là cột hữu ích, Cần biết các mối quan hệ giữa các cột (nếu có)
+
 - Xác định biến đầu vào (Input/ Independent) và biến đầu ra (Output/ Dependent).
 
 - Xác định các thuộc tính
