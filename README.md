@@ -262,4 +262,22 @@ thư viện glob
 
 <img width="770" alt="Ảnh màn hình 2024-05-19 lúc 11 06 09" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/69ecaf15-6555-4c79-be19-f6fab5e180cb">
 
+#### Xử lý dữ liệu thiếu
+
+<img width="976" alt="Ảnh màn hình 2024-05-22 lúc 18 22 03" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a3f877db-e345-452e-b26a-1a48b6797bf2">
+
+cách hay sử dụng nhất là cách 
+
+**Xoá dòng** 
+
+**Xoá cột**
+
+Mean/ Mode/ Median Imputation
+
+***B. Làm sạch dữ liệu***
+
+#### Phát hiện ngoại lệ (Outlier)
+
+- Ngoại lệ có hai loại: đơn biến (Univariate) và đa biến (Multivariate)
+
 ### 3. Sử dụng package dataprep để làm sạch dữ liệu
