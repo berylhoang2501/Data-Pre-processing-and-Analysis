@@ -289,20 +289,57 @@ lưu ý: không phải biến kiểu object nào cũng là biến phân loại
 
 hình ảnh: nếu unique value nhỏ hơn = 10 (bién phân loại) thì in ra, > thì in số lượng thôi
 
+**Thống kê mô tả**
+
+- Thống kê các biến số: count, mean, std, min, 25%, 50% (median), 75%, min, max.
+
+-  Thống kê các biến phân loại: count, unique, top, freq.
+
+**Chuyển đổi kiểu dữ liệu**
+
+<img width="507" alt="Ảnh màn hình 2024-05-25 lúc 05 54 28" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/193faece-51f9-4958-a629-15e6530bc8be">
+
+**Xử lý dữ liệu trùng lặp**
+
+- Phát hiện dữ liệu trùng lặp bằng hàm .duplicated().sum() và .duplicated().any()
+
+
+#### ***B. Làm sạch dữ liệu***
+
+- Loại bỏ dữ liệu trùng lặp bằng hàm drop_duplicate()
+
 **Xử lý dữ liệu thiếu**
 
-<img width="976" alt="Ảnh màn hình 2024-05-22 lúc 18 22 03" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a3f877db-e345-452e-b26a-1a48b6797bf2">
+<img width="976" alt="Ảnh màn hình 2024-05-22 lúc 18 22 03" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a3f877db-e345-452e-b26a-1a48b6797bf2">
 
 Xoá dòng
 
 Xoá cột
 
-Mean/ Mode/ Median Imputation
+- Mean/ Mode/ Median Imputation
 
-#### ***B. Làm sạch dữ liệu***
+<img width="938" alt="Ảnh màn hình 2024-05-25 lúc 06 19 47" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a66bcdb5-b352-46ca-8141-0dc8999981f1">
 
-Phát hiện ngoại lệ (Outlier)
+ví dụ 2: điền bằng tuổi trung bình theo pclass (điền tuổi khác nhau đối với các hành khách ở các hạng ghế khác nhau), dùng câu lệnh transform
+
+**Dữ liệu không nhất quán**
+
+- ví dụ: Dữ liệu không nhất quán về đơn vị
+
+**Phát hiện ngoại lệ (Outlier)**
 
 - Ngoại lệ có hai loại: đơn biến (Univariate) và đa biến (Multivariate)
+
+<img width="944" alt="Ảnh màn hình 2024-05-25 lúc 06 23 23" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/4f550207-7371-4bf8-868e-87a340442e8a">
+
+các biến xét riêng lẽ không có ngoại lệ nhưng khi kết hợp với nhau thì có khả năng có ngoại lệ 
+
+- xét ngoại lệ trên 1 biến -> vẽ boxplot
+
+- xét ngoại lệ trên 2 biến -> vẽ scatter plot
+
+- Cách phát hiện ngoại lệ: Thường được sử dụng phổ biến là trực quan hóa (boxplot, histogram, scatterplot), Áp dụng một số quy tắc như z-score ngoài 3 độ lệch chuẩn; tứ phân vị.
+
+- Xử lý ngoại lệ: Hầu hết các cách xử ýl ngoại ệl tương tự như các cách xử ýl với dữ liệu bị thiếu Như xóa mẫu, biến đổi chúng, binning, tạo các riêng biệt, thay thế bằng các giá trị...
 
 ### 3. Sử dụng package dataprep để làm sạch dữ liệu
