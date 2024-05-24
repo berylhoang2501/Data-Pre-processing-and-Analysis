@@ -235,48 +235,73 @@ lý tưởng nhất là đưa dữ liệu về dạng không bị lệch thì m�
 
 ![Ảnh màn hình 2024-05-19 lúc 10 48 40](https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/e9331626-5049-44fb-93d5-080dfbaa81b4)
 
-***A. Đọc dữ liệu và xem thông tin cơ bản***
-#### Đọc dữ liệu 
+#### ***A. Đọc dữ liệu và xem thông tin cơ bản***
+**Đọc dữ liệu**
 
 - Tập tin (.CsV, .txt, json, XIsx, ...): sử dụng pandas
 
-#### Tích hợp dữ liệu
+**Tích hợp dữ liệu**
 
 - Nối các dataframe lại: sử dụng pandas.concat()
 
--  Trộn các dataframe lại: sử dụng pandas.merge)
+- Trộn các dataframe lại: sử dụng pandas.merge)
 
-thư viện glob 
+thư viện glob: cho phép tự động đọc nhiều tập tin
 
-#### Xem thông tin cơ bản
+<img width="511" alt="Ảnh màn hình 2024-05-24 lúc 20 37 37" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a457f6bf-de6a-4d2c-85df-846d410167be">
+
+ví dụ: đọc tất cả các tệp CSV trong thư mục data có tên bắt đầu bằng iris..
+
+**Xem thông tin cơ bản**
 
 - shape, info, dtypes, head, tail, columns
 
-#### Xác định các thuộc tính
+**Xác định các thuộc tính**
 
 - hiểu rõ về tập dữ liệu (Cần biết rõ về kiểu dữ liệu và ý nghĩa của các cột, Cột nào là cột hữu ích, Cần biết các mối quan hệ giữa các cột (nếu có)
 
 - Xác định biến đầu vào (Input/ Independent) và biến đầu ra (Output/ Dependent).
 
-- Xác định các thuộc tính
+- Xácđịnh kiểu dữ liệu của các biến: (xác định biến đó là biến phân loại hay biến số, biến chuỗi, biến ngày, biến boolean..)
+
+biến số (biến liên tục thường là số nguyên và biến rời rạc thường là số thực)
+
+- biến liên tục: đo chiều cao của học sinh và nhận được các giá trị như 150.2 cm, 160.5 cm, 172.8 cm, thì chiều cao có thể là bất kỳ số nào trong khoảng từ, ví dụ, 150 cm đến 180 cm, bao gồm cả các số thập phân như 155.55 cm hay 167.8 cm.
+- biến rời rạc: Nếu chúng ta đếm số học sinh trong một lớp, chúng ta có thể có các giá trị như 25 học sinh, 30 học sinh, 35 học sinh. Không thể có 25.5 hay 30.7 học sinh vì số học sinh phải là một số nguyên.
+
+biến phân loại (dùng nghiệp vụ, chọn ra các thuộc tính có ý nghĩa để phân tích)
+
+<img width="293" alt="Ảnh màn hình 2024-05-24 lúc 20 51 15" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/92f2e809-9b55-42ad-88f9-227951a2a681">
 
 <img width="770" alt="Ảnh màn hình 2024-05-19 lúc 11 06 09" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/69ecaf15-6555-4c79-be19-f6fab5e180cb">
 
-#### Xử lý dữ liệu thiếu
+- select_dtypes: xác định các biến thuộc cùng kiểu dữ liệu (ví dụ: xác định các biến thuộc kiểu dữ liệu object)
+
+- trong trg hợp có nhiều biến thì mới dùng cách này
+
+  <img width="943" alt="Ảnh màn hình 2024-05-24 lúc 21 03 11" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/7c736d60-b3ad-4961-ad75-d705fa106b97">
+
+hình ảnh: chọn lần lượt các cột, nếu giá trị đặc biệt của cột đó dưới 5 (thường là biến phân loại) thì in ra còn trên 5 thì đếm số lượng thôi
+
+lưu ý: không phải biến kiểu object nào cũng là biến phân loại
+
+<img width="923" alt="Ảnh màn hình 2024-05-24 lúc 21 10 22" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a2a5de1e-fe96-4e49-8edd-964f94784ec9">
+
+hình ảnh: nếu unique value nhỏ hơn = 10 (bién phân loại) thì in ra, > thì in số lượng thôi
+
+**Xử lý dữ liệu thiếu**
 
 <img width="976" alt="Ảnh màn hình 2024-05-22 lúc 18 22 03" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a3f877db-e345-452e-b26a-1a48b6797bf2">
 
-cách hay sử dụng nhất là cách 
+Xoá dòng
 
-**Xoá dòng** 
-
-**Xoá cột**
+Xoá cột
 
 Mean/ Mode/ Median Imputation
 
-***B. Làm sạch dữ liệu***
+#### ***B. Làm sạch dữ liệu***
 
-#### Phát hiện ngoại lệ (Outlier)
+Phát hiện ngoại lệ (Outlier)
 
 - Ngoại lệ có hai loại: đơn biến (Univariate) và đa biến (Multivariate)
 
