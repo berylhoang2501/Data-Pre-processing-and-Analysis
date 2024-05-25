@@ -78,11 +78,11 @@ ví dụ tương quan nghịch: giá xe càng cao thì càng tiết kiệm xăng
 Data mining sử dụng các kỹ thuật để: Xây dựng các mô hình, Tìm kiếm các quy luật, hay xu hướng từ dữ liệu.
 
 ***Một số kỹ thuật:***
-- Clustering (phân cụm): Phân loại các đối tượng thành các nhóm có tính chất tương đồng. (mô hình tự đi tìm)
+- Clustering (phân cụm):  các đối tượng thành các nhóm có tính chất tương đồng. (mô hình tự đi tìm)
 
-Ví dụ: Phân loại khách hàng dựa trên hành vi mua sắm để tạo các nhóm tiềm năng khách hàng ?
+Ví dụ:  khách hàng dựa trên hành vi mua sắm để tạo các nhóm tiềm năng khách hàng ?
 
-- Classification (phân loại): Xây dựng mô hình để phân loại dữ liệu vào các lớp đã biết trước. (mình tự xác định)
+- Classification (): Xây dựng mô hình để  dữ liệu vào các lớp đã biết trước. (mình tự xác định)
 
 Ví dụ: Dự đoán xem một email là mail rác (spam) hay không dựa trên nội dung và thông tin liên quan.
 
@@ -198,7 +198,7 @@ lý tưởng nhất là đưa dữ liệu về dạng không bị lệch thì m�
 
 **Kiểm tra dữ liệu thiếu (missing value), nhiễu (noise), ngoại lệ (outlier), trùng (duplicate), không nhất quán (inconsistencies)**
 
-**Kiểm tra dữ liệu phân loại (categorical data)**
+**Kiểm tra dữ liệu  (categorical data)**
 
 **Chuẩn hóa dữ liệu (Data standardizing)**
 
@@ -262,14 +262,14 @@ ví dụ: đọc tất cả các tệp CSV trong thư mục data có tên bắt 
 
 - Xác định biến đầu vào (Input/ Independent) và biến đầu ra (Output/ Dependent).
 
-- Xácđịnh kiểu dữ liệu của các biến: (xác định biến đó là biến phân loại hay biến số, biến chuỗi, biến ngày, biến boolean..)
+- Xácđịnh kiểu dữ liệu của các biến: (xác định biến đó là biến  hay biến số, biến chuỗi, biến ngày, biến boolean..)
 
 biến số (biến liên tục thường là số nguyên và biến rời rạc thường là số thực)
 
 - biến liên tục: đo chiều cao của học sinh và nhận được các giá trị như 150.2 cm, 160.5 cm, 172.8 cm, thì chiều cao có thể là bất kỳ số nào trong khoảng từ, ví dụ, 150 cm đến 180 cm, bao gồm cả các số thập phân như 155.55 cm hay 167.8 cm.
 - biến rời rạc: Nếu chúng ta đếm số học sinh trong một lớp, chúng ta có thể có các giá trị như 25 học sinh, 30 học sinh, 35 học sinh. Không thể có 25.5 hay 30.7 học sinh vì số học sinh phải là một số nguyên.
 
-biến phân loại (dùng nghiệp vụ, chọn ra các thuộc tính có ý nghĩa để phân tích)
+biến phân loại (dùng nghiệp vụ, chọn ra các thuộc tính có ý nghĩa để phân tích), biến phân loại quan trọng nhất là ý nghĩa thống kê của nó, kqt nó là biến số hay chuỗi
 
 <img width="293" alt="Ảnh màn hình 2024-05-24 lúc 20 51 15" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/92f2e809-9b55-42ad-88f9-227951a2a681">
 
