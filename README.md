@@ -343,3 +343,8 @@ các biến xét riêng lẽ không có ngoại lệ nhưng khi kết hợp vớ
 - Xử lý ngoại lệ: Hầu hết các cách xử ýl ngoại ệl tương tự như các cách xử ýl với dữ liệu bị thiếu Như xóa mẫu, biến đổi chúng, binning, tạo các riêng biệt, thay thế bằng các giá trị...
 
 ### 3. Sử dụng package dataprep để làm sạch dữ liệu
+
+- Sử dụng các hàm trong package dataprep để làm sạch dữ liệu: from dataprep.clean import function_name
+
+function name: có thể là clean_headers), clean_date(), clean_text), clean_df()...
+
