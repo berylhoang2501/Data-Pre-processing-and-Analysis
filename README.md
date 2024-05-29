@@ -141,6 +141,8 @@ Nếu kết quả kiểm định xét có mối tương quan thì là do ngẫu 
 
 ### 4. Quy trình phân tích dữ liệu
 
+#### Import các thư viện -> Đọc dữ liệu và xem thông tin cơ bản -> Xác định biến phân loại và biến số (số nguyên hay số thực) -> Kiểm tra dữ liệu có trùng lắp hay không -> Chọn ra các cột dữ liệu có ý nghĩa phân tích -> Chuyển các biến phân loại thành kiểu object (nếu đang ở kiểu str hoặc float)
+
 **Quy trình Data Analysis**
 
 <img width="776" alt="Ảnh màn hình 2024-05-18 lúc 10 56 59" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/50e489e8-580b-4b94-9b9f-7121287aac28">
