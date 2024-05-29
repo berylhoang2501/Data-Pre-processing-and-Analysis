@@ -350,3 +350,91 @@ các biến xét riêng lẽ không có ngoại lệ nhưng khi kết hợp vớ
 
 function name: có thể là clean_headers), clean_date(), clean_text), clean_df()...
 
+## Bài 4: Exploratory Data Analysis (EDA)
+
+### Thống kê mô tả -> trực quan hoá dữ liệu -> kiểm định giả thuyết 
+
+### 1. Giới thiệu EDA
+
+- EDA thực hiện điều tra ban đầu về dữ liệu để khám phá các mẫu, xu hướng, mối liên quan, phát hiện ngoại lệ, kiếm tra giả thuyết với sự trợ giúp của thống kê tóm tắt và trực quan hóa dữ liệu.
+
+**Mục đích của EDA:**
+
+<img width="1044" alt="Ảnh màn hình 2024-05-29 lúc 18 18 38" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/267bd338-8a88-4602-a9c5-950823708eb6">
+
+**Các phương pháp phân tích EDA**
+- Thống kê mô tả (Descriptive Statistics).
+- Trực quan hóa dữ liệu (Data Visualization).
+- Kiểm định giả thuyết (Hypothesis testing): Chi-squared, ANOVA
+
+**Exploratory Data Analysis (EDA)**
+
+<img width="935" alt="Ảnh màn hình 2024-05-29 lúc 18 21 45" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/b61e15f4-bce4-4776-9964-b84cb7b05c6d">
+
+### 2. Phân tích một biến, hai biến 
+
+***A. Phân tích một biến***
+
+**Phân tích biển phân loại (categorical)**
+
+<img width="906" alt="Ảnh màn hình 2024-05-29 lúc 18 35 24" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/5a2d48d6-9687-47fb-a23d-1bb12a4513f3">
+
+**Phân tích biến liên tục (continuous)**
+
+- thống kê mô tả -> skew -> vẽ 3 biểu đồ 
+
+<img width="940" alt="Ảnh màn hình 2024-05-29 lúc 18 33 44" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/c2acb78d-d3b7-469f-b411-6701dd54a8ee">
+
+***B. Phân tích hai biến***
+
+- Tìm ra mối quan hệ giữa hai biến: tìm kiếm sự liên kết (association) và không liên kết (disassociation) giữa các biến ở mức ý nghĩa được xác định trước.
+
+**Có thể thực hiện cho bất kỳ sự kết hợp nào của các biến phân loại và liên tục**
+
+Sự kết hợp có thể là: 
+
+- Phân loại & Phân loại
+
+<img width="1129" alt="Ảnh màn hình 2024-05-29 lúc 19 16 56" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/23e1d695-9e4b-44de-9fbd-84ef24a979bb">
+
+- Phân loại & Liên tục
+
+- Liên tục & Liên tục.
+
+<img width="1063" alt="Ảnh màn hình 2024-05-29 lúc 19 16 09" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/0dcc1650-0c81-4adf-87e3-a29e7eba501d">
+
+#### Kiểm định Chi-squared dùng để kiểm định 2 biến phân loại
+
+**Phát biểu giả thuyết**
+
+- HO: 2 biến phân loại là độc lập
+
+- Ha: 2 biến phân loại là phụ thuộc
+
+**Thu thập dữ liệu**
+
+**Thực hiện kiểm định Chi-squared**
+
+**Kết luận:**
+
+- Nếu p-value<0.05 bác bỏ H0 và chấp nhận Ha.
+
+- Nếu p-value>=0.05 chấp nhận HO.
+
+**Ví dụ**
+
+#### Kiểm định ANOVA (Analysis of Variance)
+
+**Biến phân loại**
+
+p class có ảnh hưởng đến fare hay k 
+
+sex có ảnh hưởng đến fare hay không 
+
+sự kết hợp của pclass và sex có ảnh hưởng đến fare hay không 
+
+
+### 3. Phát hiện và xử lý outlier
+
+### 4. Các package EDA hữu ích
+
