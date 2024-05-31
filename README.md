@@ -210,7 +210,7 @@ lý tưởng nhất là đưa dữ liệu về dạng không bị lệch thì m�
 
 **Chia dữ liệu (Data splitting)**
 
-## Bài 3: Data Pre-processing (19/5/2024)
+## Bài 3: Data Pre-processing (25/5/2024)
 
 ### 1. Giới thiệu
 
@@ -350,7 +350,7 @@ các biến xét riêng lẽ không có ngoại lệ nhưng khi kết hợp vớ
 
 function name: có thể là clean_headers), clean_date(), clean_text), clean_df()...
 
-## Bài 4: Exploratory Data Analysis (EDA)
+## Bài 4: Exploratory Data Analysis (EDA) (29/5/2024)
 
 ### Thống kê mô tả -> trực quan hoá dữ liệu -> kiểm định giả thuyết 
 
