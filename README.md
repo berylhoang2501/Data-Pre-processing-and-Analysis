@@ -433,8 +433,19 @@ sex có ảnh hưởng đến fare hay không
 
 sự kết hợp của pclass và sex có ảnh hưởng đến fare hay không 
 
-
 ### 3. Phát hiện và xử lý outlier
 
+**1. Sử dụng phương pháp IQR**
+
+**2. Tìm ngoài khoảng 3 độ lệch chuẩn**
+
+normal distribution chuyển thành standard normal distribution rồi tìm phần +(-) 3 độ lệch chuẩn
+
 ### 4. Các package EDA hữu ích
+
+**dataprep**
+
+**ttth-mds5-analyzer**
+
+https://pypi.org/project/ttth-mds5-analyzer/
 
