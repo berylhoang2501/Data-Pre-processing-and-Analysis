@@ -449,3 +449,44 @@ normal distribution chuyển thành standard normal distribution rồi tìm ph�
 
 https://pypi.org/project/ttth-mds5-analyzer/
 
+## Bài 5: Feature Engineering (5/6/2024)
+
+### 1. Giới thiệu
+
+### 2. Tạo thuộc tính (feature)
+
+### 3. Chuẩn hóa dữ liệu (Data Standardization)
+
+### 4. Chuyển dạng dữ liệu (Data Transformation)
+
+- gọn gàng: mỗi biến là 1 cột, mỗi quan sát là 1 hàng
+
+**Đặc điểm của tidy data**
+
+**Chuyển dữ liệu thành Tidy data**
+
+- Vẫn đề về dữ liệu cần khắc phục: Cột chứa giá trị thay vì chứa biến
+
+- Giải pháp: Dùng pd.melt()
+
+## Bài 6: Natural Language Processing (5/6/2024)
+
+### 1. Tổng quan
+
+**Natural Language Processing**
+
+**Một số nhiệm vụ của NLP**
+
+**Một số ứng dụng NLP thông dụng**
+
+**Một số quy trình NLP cơ bản**
+
+### 2. Các thư viện hỗ trợ NLP phổ biến
+
+### 3. Text data Pre-processing
+
+**Chuẩn hóa text**
+
+### 4. Text data Transformation 
+
+### 5. Tiền xử lý tài liệu tiếng Việt
