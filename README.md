@@ -271,7 +271,7 @@ biến số (biến liên tục thường là số nguyên và biến rời rạ
 - biến liên tục: đo chiều cao của học sinh và nhận được các giá trị như 150.2 cm, 160.5 cm, 172.8 cm, thì chiều cao có thể là bất kỳ số nào trong khoảng từ, ví dụ, 150 cm đến 180 cm, bao gồm cả các số thập phân như 155.55 cm hay 167.8 cm.
 - biến rời rạc: Nếu chúng ta đếm số học sinh trong một lớp, chúng ta có thể có các giá trị như 25 học sinh, 30 học sinh, 35 học sinh. Không thể có 25.5 hay 30.7 học sinh vì số học sinh phải là một số nguyên.
 
-biến phân loại (dùng nghiệp vụ, chọn ra các thuộc tính có ý nghĩa để phân tích), biến phân loại quan trọng nhất là ý nghĩa thống kê của nó, kqt nó là biến số hay chuỗi
+biến phân loại (dùng nghiệp vụ, chọn ra các thuộc tính có ý nghĩa để phân tích), biến phân loại quan trọng nhất là ý nghĩa thống kê của nó, kqt nó là biến số hay chuỗi (biến phân loại là biến có thể phân nhóm)
 
 <img width="293" alt="Ảnh màn hình 2024-05-24 lúc 20 51 15" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/92f2e809-9b55-42ad-88f9-227951a2a681">
 
@@ -304,7 +304,6 @@ hình ảnh: nếu unique value nhỏ hơn = 10 (bién phân loại) thì in ra,
 **Xử lý dữ liệu trùng lặp**
 
 - Phát hiện dữ liệu trùng lặp bằng hàm .duplicated().sum() và .duplicated().any()
-
 
 #### ***B. Làm sạch dữ liệu***
 
