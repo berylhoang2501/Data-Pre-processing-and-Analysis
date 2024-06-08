@@ -336,7 +336,7 @@ ví dụ 2: điền bằng tuổi trung bình theo pclass (điền tuổi khác 
 
 các biến xét riêng lẽ không có ngoại lệ nhưng khi kết hợp với nhau thì có khả năng có ngoại lệ 
 
-- xét ngoại lệ trên 1 biến -> vẽ boxplot
+- xét ngoại lệ trên 1 biến -> vẽ boxplot, histogram
 
 - xét ngoại lệ trên 2 biến -> vẽ scatter plot
 
