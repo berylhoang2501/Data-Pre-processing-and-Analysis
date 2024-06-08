@@ -351,6 +351,10 @@ function name: có thể là clean_headers), clean_date(), clean_text), clean_df
 
 ## Bài 4: Exploratory Data Analysis (EDA) (29/5/2024)
 
+### Xác định mối tương quan đối với biến định lượng thì dùng hệ số tương quan
+
+### Xác định mối tương quan đối với biến định tính thì dùng kiểm định giả thuyết
+
 ### Thống kê mô tả -> trực quan hoá dữ liệu -> kiểm định giả thuyết 
 
 ### 1. Giới thiệu EDA
