@@ -493,3 +493,83 @@ https://pypi.org/project/ttth-mds5-analyzer/
 ### 4. Text data Transformation 
 
 ### 5. Tiền xử lý tài liệu tiếng Việt
+
+## Bài 7: Linear Regression (9/6/2024)
+
+- ref: nguyễn vân tuấn, lê thị kim ánh, đặng thế khoa, khuất thị 
+
+- Linear regression là thuật toán thuộc nhóm Supervised Learning sử dụng cho regression
+
+- biến dự báo dự đoán là biến số liên tục
+
+- Là một trong những chủ đề đầu tiên cần biết khi học về mô hình tiên đoán (learning predictive modeling).
+
+### 1. Hồi quy tuyển tính (Linear Regression)
+
+#### Ý tưởng: 
+- Tmì mối quan hệ giữa numerical output và input variables. Dependent variable liên tục, còn các Independent variable có thể liên tục hoặc rời
+rạc.
+
+**Mô hình hóa mối quan hệ dưới dạng tuyến tính**
+
+<img width="1033" alt="Ảnh màn hình 2024-06-09 lúc 08 45 02" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/160599d1-b1eb-478a-a462-39b36834d30f">
+
+**Xây dựng hàm mất mát**
+
+<img width="1057" alt="Ảnh màn hình 2024-06-09 lúc 08 57 44" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/7da73513-ed60-4edf-9838-99991814a824">
+
+- mục đích: xác định các hệ số beta để tìm ra giá trị nhỏ nhất của hàm mất mát
+
+<img width="1050" alt="Ảnh màn hình 2024-06-09 lúc 09 00 52" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a82f035f-d988-4cd9-a209-ca1290fa4477">
+
+- trên trục x là input, trên trục y là output
+
+**Mô hình**
+
+đường thẳng màu đỏ: y = ax + b 
+
+- lưu ý: mô hình hồi quy tuyến tình rất kỵ nhiễu (outlier)
+
+![Ảnh màn hình 2024-06-09 lúc 09 06 34 (2)](https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/70e6682f-8bcf-452b-a539-267b69ae0dad)
+
+**Least Squares Algorithm**
+
+<img width="1035" alt="Ảnh màn hình 2024-06-09 lúc 09 11 16" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/30bcd856-beba-4d3f-8387-0de5770e0ac6">
+
+- sai số là y - y thực tế = e
+
+- số dư là (y - y thực tế)^2
+
+<img width="760" alt="Ảnh màn hình 2024-06-09 lúc 09 13 18" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/72457011-b3da-45be-99c5-172fca775687">
+
+#### Phân loại: Simple Linear Regression và Multiple Linear Regression
+
+<img width="724" alt="Ảnh màn hình 2024-06-09 lúc 09 16 33" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/f48075e2-538a-4666-a22a-bb5b2b0a869b">
+
+### 2. Hồi quy đơn biến (Simple Linear Regression)
+
+- Simple Linear Regression là phương pháp tìm hiểu mối quan hệ giữa hai biến: Biến độc lập (predictor/independent variable): X và Biến phụ thuộc (response/dependent variable) là biến mà chúng ta muốn dự đoán: Y
+
+- tìm hiểu biến x và biến y có tương quan với nhau không
+
+- trong trường hợp ở đây là có biến phân loại thì 1 biến phân loại sẽ sử dụng kiểm định giả thuyết chi2 và 2 biến phân loại trở lên thì sử dụng ANOVA
+
+**Function**
+
+<img width="999" alt="Ảnh màn hình 2024-06-09 lúc 09 22 15" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/df1007cb-17e5-403a-bf0b-9ddcc355913d">
+
+### 3. Hồi quy đa biến (Multiple Linear Regression)
+
+- Nếu chúng ta muốn sử dụng nhiều biến hơn trong mô hình (X1, X2,...) để dự đoán (Y), chúng ta có thể sử dụng Multiple Linear Regression.
+
+- Multiple Linear Regression rất giống với Simple Linear Regression, nhưng phương pháp này được sử dụng để giải thích mối quan hệ giữa một biến phụ thuộc và hai hoặc nhiều biến độc lập.
+
+- Hầu hết các mô hình hồi quy (regression model) trong thực tế liên quan đến nhiều yếu tố dự đoán.
+  
+**Fuction**
+
+<img width="950" alt="Ảnh màn hình 2024-06-09 lúc 09 25 36" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/4bc3e683-8724-4181-b2b2-cf04ae32d5bb">
+
+### 4. Hồi quy đa thức (Polynomial Regression) 
+
+### 5. Một số kỹ thuật thực hiện trên mô hình
