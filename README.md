@@ -378,11 +378,11 @@ function name: có thể là clean_headers), clean_date(), clean_text), clean_df
 
 ### A. Phân tích một biến
 
-**Phân tích biển phân loại (categorical - biến phân loại)**
+### Phân tích biển phân loại (categorical - biến phân loại)
 
 <img width="906" alt="Ảnh màn hình 2024-05-29 lúc 18 35 24" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/5a2d48d6-9687-47fb-a23d-1bb12a4513f3">
 
-**Phân tích biến liên tục (continuous - biến số liên tục)**
+### Phân tích biến liên tục (continuous - biến số liên tục)
 
 - thống kê mô tả -> skew -> vẽ 3 biểu đồ 
 
@@ -419,7 +419,7 @@ Sự kết hợp có thể là: (chapter 4 demo 1)
 
 - vẽ sự tương quan giữa 1 biến phân loại và 1 biến liên tục, trục x là biến phân loại, trục y là giá trị trung bình của biến số liên tục: biểu đồ boxplot, biểu đồ bar
 
-#### Phân tích hai biến - liên tục và liên tục (biến numberic)
+### Phân tích hai biến - liên tục và liên tục (biến numberic)
 
 - dùng .corr()
 
@@ -437,7 +437,7 @@ Sự kết hợp có thể là: (chapter 4 demo 1)
   
 ![Ảnh màn hình 2024-06-10 lúc 13 56 32](https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/344450f8-b963-41f6-bb71-a35d0eff92a6)
 
-#### Phân tích hai biến - phân loại và phân loại 
+### Phân tích hai biến - phân loại và phân loại 
 
 <img width="1103" alt="Ảnh màn hình 2024-06-10 lúc 13 58 55" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/127096c3-7107-4de0-9b1d-3bb47e5bee6c">
 
@@ -445,7 +445,7 @@ Sự kết hợp có thể là: (chapter 4 demo 1)
 
 - nếu muốn vẽ chồng lên thì thêm stacked=True
 
-##### Kiểm định Chi-squared dùng để kiểm định 2 biến phân loại 
+### Kiểm định Chi-squared dùng để kiểm định 2 biến phân loại 
 
 **Phát biểu giả thuyết**
 
@@ -465,7 +465,7 @@ Sự kết hợp có thể là: (chapter 4 demo 1)
 
 **Ví dụ**
 
-#### Kiểm định ANOVA (Analysis of Variance)
+### Kiểm định ANOVA (Analysis of Variance)
 
 **Biến phân loại**
 
