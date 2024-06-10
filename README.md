@@ -465,15 +465,21 @@ Sự kết hợp có thể là: (chapter 4 demo 1)
 
 **Ví dụ**
 
-### Kiểm định ANOVA (Analysis of Variance)
+### Phân tích hai biến - phân loại và liên tục 
 
-**Biến phân loại**
+### Kiểm định ANOVA (Analysis of Variance) dùng cho 2 biến phân loại và liên tục 
 
-p class có ảnh hưởng đến fare hay k 
+**Kiểm định các biến phân loại (số nhóm >= 2) và biến liên tục**
+
+**Câu hỏi đặt ra ví dụ**
+
+p class (có 3 nhóm 1,2,3)) có ảnh hưởng đến fare hay k 
 
 sex có ảnh hưởng đến fare hay không 
 
 sự kết hợp của pclass và sex có ảnh hưởng đến fare hay không 
+
+## Bài 4: Exploratory Data Analysis (EDA) (tt) (01/6/2024)
 
 ### 3. Phát hiện và xử lý outlier
 
