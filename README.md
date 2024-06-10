@@ -419,15 +419,39 @@ Sự kết hợp có thể là: (chapter 4 demo 1)
 
 - vẽ sự tương quan giữa 1 biến phân loại và 1 biến liên tục, trục x là biến phân loại, trục y là giá trị trung bình của biến số liên tục: biểu đồ boxplot, biểu đồ bar
 
-#### Phân tích hai biến - liên tục và liên tục
+#### Phân tích hai biến - liên tục và liên tục (biến numberic)
 
-#### Kiểm định Chi-squared dùng để kiểm định 2 biến phân loại 
+- dùng .corr()
+
+- 0.5 chỉ là số tương đối thôi có khả năng thay đổi dựa trên thực tế 
+
+- kiểm tra nếu trị tuyệt đối >0.5 thì là có mối tương quan, dùng abs để lấy luôn các trường hợp tương quan nghịch
+
+ quan điểm của thầy: 
+ 
+- 0.6 0.7 -> tương quan khá
+  
+- 0.8 0.9 -> tương quan mạnh
+  
+- có thể vẽ biểu đồ scatterplot để xem mối tương quan
+  
+![Ảnh màn hình 2024-06-10 lúc 13 56 32](https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/344450f8-b963-41f6-bb71-a35d0eff92a6)
+
+#### Phân tích hai biến - phân loại và phân loại 
+
+<img width="1103" alt="Ảnh màn hình 2024-06-10 lúc 13 58 55" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/127096c3-7107-4de0-9b1d-3bb47e5bee6c">
+
+- có thể vẽ biểu đồ heatmap để xem mối tương quan
+
+- nếu muốn vẽ chồng lên thì thêm stacked=True
+
+##### Kiểm định Chi-squared dùng để kiểm định 2 biến phân loại 
 
 **Phát biểu giả thuyết**
 
 - HO: 2 biến phân loại là độc lập
 
-- Ha: 2 biến phân loại là phụ thuộc
+- Ha: 2 biến phân loại là phụ thuộc (có ý nghĩa thống kê, có ý nghĩa đúng cho cả quần thể) (đối thuyết dùng để bác bỏ H0)
 
 **Thu thập dữ liệu**
 
