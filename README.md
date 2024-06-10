@@ -372,41 +372,56 @@ function name: có thể là clean_headers), clean_date(), clean_text), clean_df
 
 **Exploratory Data Analysis (EDA)**
 
-<img width="935" alt="Ảnh màn hình 2024-05-29 lúc 18 21 45" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/b61e15f4-bce4-4776-9964-b84cb7b05c6d">
+<img width="1143" alt="Ảnh màn hình 2024-06-10 lúc 12 55 56" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/3b3e0a41-0a67-4dc2-a1a7-74e506dae0bc">
 
 ### 2. Phân tích một biến, hai biến 
 
-***A. Phân tích một biến***
+### A. Phân tích một biến
 
-**Phân tích biển phân loại (categorical)**
+**Phân tích biển phân loại (categorical - biến phân loại)**
 
 <img width="906" alt="Ảnh màn hình 2024-05-29 lúc 18 35 24" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/5a2d48d6-9687-47fb-a23d-1bb12a4513f3">
 
-**Phân tích biến liên tục (continuous)**
+**Phân tích biến liên tục (continuous - biến số liên tục)**
 
 - thống kê mô tả -> skew -> vẽ 3 biểu đồ 
 
 <img width="940" alt="Ảnh màn hình 2024-05-29 lúc 18 33 44" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/c2acb78d-d3b7-469f-b411-6701dd54a8ee">
 
-***B. Phân tích hai biến***
+<img width="1061" alt="Ảnh màn hình 2024-06-10 lúc 12 56 24" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/dd9bd297-662d-47d6-92b5-f44d7e942670">
+
+<img width="795" alt="Ảnh màn hình 2024-06-10 lúc 12 59 24" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/da52fd7c-5462-4789-9a28-ac043d57c0b3">
+
+### B. Phân tích hai biến
 
 - Tìm ra mối quan hệ giữa hai biến: tìm kiếm sự liên kết (association) và không liên kết (disassociation) giữa các biến ở mức ý nghĩa được xác định trước.
 
 **Có thể thực hiện cho bất kỳ sự kết hợp nào của các biến phân loại và liên tục**
 
-Sự kết hợp có thể là: 
+Sự kết hợp có thể là: (chapter 4 demo 1)
 
 - Phân loại & Phân loại
 
 <img width="1129" alt="Ảnh màn hình 2024-05-29 lúc 19 16 56" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/23e1d695-9e4b-44de-9fbd-84ef24a979bb">
 
-- Phân loại & Liên tục
+- Liên tục & Liên tục
 
-- Liên tục & Liên tục.
+
+- Phân loại & Liên tục
 
 <img width="1063" alt="Ảnh màn hình 2024-05-29 lúc 19 16 09" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/0dcc1650-0c81-4adf-87e3-a29e7eba501d">
 
-#### Kiểm định Chi-squared dùng để kiểm định 2 biến phân loại
+**Các loại biểu đồ**
+
+- vẽ sự tương quan giữa 2 biến phân loại: sử dụng biểu đồ heatmap
+
+-  vẽ sự tương quan giữa 2 biến liên tục: biểu đồ scatter
+
+- vẽ sự tương quan giữa 1 biến phân loại và 1 biến liên tục, trục x là biến phân loại, trục y là giá trị trung bình của biến số liên tục: biểu đồ boxplot, biểu đồ bar
+
+#### Phân tích hai biến - liên tục và liên tục
+
+#### Kiểm định Chi-squared dùng để kiểm định 2 biến phân loại 
 
 **Phát biểu giả thuyết**
 
