@@ -485,6 +485,8 @@ sự kết hợp của pclass và sex có ảnh hưởng đến fare hay không
 
 **1. Sử dụng phương pháp IQR**
 
+<img width="528" alt="Ảnh màn hình 2024-06-11 lúc 11 38 19" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/f6c9d963-29ca-463b-873c-055781c63eb0">
+
 **2. Tìm ngoài khoảng 3 độ lệch chuẩn**
 
 normal distribution chuyển thành standard normal distribution rồi tìm phần +(-) 3 độ lệch chuẩn
