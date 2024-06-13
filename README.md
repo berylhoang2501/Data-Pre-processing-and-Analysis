@@ -511,7 +511,10 @@ normal distribution chuyển thành standard normal distribution rồi tìm ph�
 ### 4. Các package EDA hữu ích
 
 **dataprep**
+
 **ttth-mds5-analyzer**
+
+- Là gói thư viện hỗ trợ thực hiện các bước phần tích đơn biến và đa biến nhanh chóng
 
 https://pypi.org/project/ttth-mds5-analyzer/
 
