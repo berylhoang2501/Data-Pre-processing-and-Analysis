@@ -1,4 +1,13 @@
 # Data-Pre-processing-and-Analysis
+
+#### Data cleaning (trùng lặp, thiếu, sai, không nhất quán, sai kiểu dữ liệu...) 
+
+#### EDA (phân tích khám phá và tìm ra mối tương quan giữa các biến số và biến phân loại)
+
+#### Chuẩn hoá dữ liệu
+
+#### Feature engineering
+
 ## Bài 1: Tổng quan Data Analysis (18/5/2024)
 ### 1. Giới thiệu
 
@@ -487,14 +496,21 @@ sự kết hợp của pclass và sex có ảnh hưởng đến fare hay không
 
 <img width="528" alt="Ảnh màn hình 2024-06-11 lúc 11 38 19" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/f6c9d963-29ca-463b-873c-055781c63eb0">
 
-**2. Tìm ngoài khoảng 3 độ lệch chuẩn**
+**2. Sử dụng phân phối chuẩn, Tìm ngoài khoảng 3 độ lệch chuẩn**
 
 normal distribution chuyển thành standard normal distribution rồi tìm phần +(-) 3 độ lệch chuẩn
+
+<img width="1072" alt="Ảnh màn hình 2024-06-14 lúc 00 44 08" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/efb5089c-622d-4fdf-bfaa-b9100168ce35">
+
+- Định lý thực nghiệm: nếu tệp dữ liệu đạt được phân phối chuẩn như trong hình thì outlier sẽ nằm ngoài khoảng 3 độ lệch chuẩn, khi đó ta có thể loại bỏ outlier
+
+<img width="724" alt="Ảnh màn hình 2024-06-14 lúc 00 49 27" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a2bbdbe7-a3f1-46d4-87fc-9ba5e4453729">
+
+<img width="744" alt="Ảnh màn hình 2024-06-14 lúc 00 50 41" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/6b8ea07d-077b-4951-9f2e-fca66f6af4b4">
 
 ### 4. Các package EDA hữu ích
 
 **dataprep**
-
 **ttth-mds5-analyzer**
 
 https://pypi.org/project/ttth-mds5-analyzer/
