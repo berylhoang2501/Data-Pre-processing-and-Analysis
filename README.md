@@ -522,7 +522,34 @@ https://pypi.org/project/ttth-mds5-analyzer/
 
 ### 1. Giới thiệu
 
-### 2. Tạo thuộc tính (feature)
+- Là quá trình sử dụng kiến thức miền (domain knowledge) về dữ liệu để tạo ra các tính năng giúp thuật toán máy học (Machine Learning algorithms) học được hiệu quả.
+
+**Đặc điểm**
+
+-  tính năng có giá trị đầu vào mới/ rút trích từ những tính năng hiện có của bộ dữ liệu.
+
+-  cô lập và làm nổi bật thông tin chính, giúp thuật toán "tập trung" vào những gì quan trọng
+
+-  Vận dụng domain knowledge để có tính năng thích hợp
+  
+### 2. Tạo tính năng (feature)
+
+**Xem thông tin các thuộc tính**
+
+- df.info(), df.columns, df.dtypes, df.select_dtypes(),...
+
+**Mã hóa thuộc tính phân loại (Encoding categorical feature)**
+
+- cần mã hoá các biến phân loại dưới dạng định lượng (dạng số) để máy tính có thể đọc và hiểu được
+
+- Có 2 cách mã hoá: label encoder (chuyển thành giá trị số nguyên) và one hot encoder /dummy encoder ( chuyển thành giá trị nhị phân 0 1)
+
+- dùng label encoder khi dữ liệu có thứ tự: ví dụ như xếp loại học lực của học sinh
+
+- dùng one hot encoder /dummy encoder khi dữ liệu không có thứ tự
+
+<img width="1098" alt="Ảnh màn hình 2024-06-15 lúc 02 24 59" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/5c8b46bd-7b0e-405c-b0fd-7ed909c7365b">
+
 
 ### 3. Chuẩn hóa dữ liệu (Data Standardization)
 
