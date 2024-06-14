@@ -666,3 +666,9 @@ rạc.
 ### 4. Hồi quy đa thức (Polynomial Regression) 
 
 ### 5. Một số kỹ thuật thực hiện trên mô hình
+
+## Bài 8: Logistic Regression (15/06/2024)
+
+**1. Logistic Regression**
+
+**2. Xây dựng Logistic Regression Model**
