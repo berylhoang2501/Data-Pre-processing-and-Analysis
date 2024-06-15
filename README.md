@@ -669,6 +669,11 @@ rạc.
 
 ## Bài 8: Logistic Regression (15/06/2024)
 
-**1. Logistic Regression**
+### 1. Logistic Regression
 
-**2. Xây dựng Logistic Regression Model**
+**Phương trình toán học (Sigmoid)**
+
+<img width="823" alt="Ảnh màn hình 2024-06-15 lúc 09 04 43" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/a401e321-dc8b-4487-be07-f6120da19052">
+
+
+### 2. Xây dựng Logistic Regression Model
