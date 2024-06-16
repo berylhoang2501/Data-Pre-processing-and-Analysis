@@ -677,3 +677,9 @@ rạc.
 
 
 ### 2. Xây dựng Logistic Regression Model
+
+## Bài 9: Handling Imbalanced Dataset (16/06/2024)
+
+### Giới thiệu
+
+### Chiến thuật làm việc với dữ liệu mất cân bằng (Imbalanced Dataset)
