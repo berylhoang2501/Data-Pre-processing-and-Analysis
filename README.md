@@ -550,6 +550,23 @@ https://pypi.org/project/ttth-mds5-analyzer/
 
 <img width="1098" alt="Ảnh màn hình 2024-06-15 lúc 02 24 59" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/5c8b46bd-7b0e-405c-b0fd-7ed909c7365b">
 
+**Xử lý các danh mục không phổ biến (uncommon category)**
+
+- ví dụ: gom nhóm các đất nước có số lượng người ít thành other -> dữ liệu nhỏ đưa vô mô hình sẽ bị các dữ liệu lớn áp đảo. vì vậy nếu gom lại vào danh mục chung sẽ ổn 
+
+**Tạo cột nhị phân (Binarizing column)**
+
+- nói về vấn đề phân loại mà chỉ có 2 giá trị => nhị 
+
+**Binning value**
+
+- binning value là những giá trị được phân ra thành khoảng
+
+- đưa biến số thành biến phân loại để xem khoảng mà giá trị rơi vào nhiều nhất
+
+- Các bin được tạo ra bằng cách sử dụng: pd.cut (df[ 'column_name'], bins), bins là số lượng khoảng cách
+
+
 
 ### 3. Chuẩn hóa dữ liệu (Data Standardization)
 
