@@ -566,9 +566,25 @@ https://pypi.org/project/ttth-mds5-analyzer/
 
 - Các bin được tạo ra bằng cách sử dụng: pd.cut (df[ 'column_name'], bins), bins là số lượng khoảng cách
 
-
-
 ### 3. Chuẩn hóa dữ liệu (Data Standardization)
+
+- scale (tính lại tỉ lệ để làm giảm bớt sự chênh lệch)
+
+**Log normalization**
+
+- Dùng log để chuẩn hoá 1 biến số khi biến số có phương sai cao/khi đo skew thấy biến số bị lệch phải nhiều/Dữ liệu có các outlier (dùng boxplot để thấy outlier)
+
+- Ví dụ-> sau khi dùng log chúng ta đã thấy đc 2 biến này có mối quan hệ tuyến 
+
+<img width="1166" alt="Ảnh màn hình 2024-06-19 lúc 21 09 13" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/6227b643-0571-4875-9ccf-64aae778605b">
+
+**Feature Scaling**
+
+- rút tỉ lệ về cho nhỏ và phù hợp hơn, không còn chênh lệch nhiều
+
+- Nếu một tính năng trong bộ dữ liệu có quy mô lớn so với các tính năng khác thì trong các thuật toán được đo bằng khoảng cách Euclide, tính năng có tỷ lệ lớn sẽ trở nên thống trị và cần được chuẩn hóa →dùng Feature scaling giúp cân đối các tính năng.
+
+![Uploading Ảnh màn hình 2024-06-20 lúc 00.18.12.png…]()
 
 ### 4. Chuyển dạng dữ liệu (Data Transformation)
 
