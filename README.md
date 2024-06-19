@@ -574,7 +574,7 @@ https://pypi.org/project/ttth-mds5-analyzer/
 
 - Dùng log để chuẩn hoá 1 biến số khi biến số có phương sai cao/khi đo skew thấy biến số bị lệch phải nhiều/Dữ liệu có các outlier (dùng boxplot để thấy outlier)
 
-- Ví dụ-> sau khi dùng log chúng ta đã thấy đc 2 biến này có mối quan hệ tuyến 
+- Ví dụ-> sau khi dùng log chúng ta đã thấy đc 2 biến này có mối quan hệ tuyến tính
 
 <img width="1166" alt="Ảnh màn hình 2024-06-19 lúc 21 09 13" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/6227b643-0571-4875-9ccf-64aae778605b">
 
@@ -621,15 +621,41 @@ https://pypi.org/project/ttth-mds5-analyzer/
 
 ### 4. Chuyển dạng dữ liệu (Data Transformation)
 
-- gọn gàng: mỗi biến là 1 cột, mỗi quan sát là 1 hàng
+<img width="762" alt="Ảnh màn hình 2024-06-20 lúc 01 24 28" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/c48f2e20-df75-4308-9f97-b203088faa18">
+
+- ví dụ bạn có dữ liệu A nhưng dữ liệu A bị sắp xếp khó cho việc phân tích -> chuyển dạng từ A sang B
 
 **Đặc điểm của tidy data**
 
-**Chuyển dữ liệu thành Tidy data**
+- gọn gàng: mỗi biến là 1 cột, mỗi quan sát là 1 hàng
+
+<img width="730" alt="Ảnh màn hình 2024-06-20 lúc 01 29 39" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/ef784b6d-638c-4c60-9058-a780335b5e23">
+
+**a. Chuyển dữ liệu thành Tidy data**
 
 - Vẫn đề về dữ liệu cần khắc phục: Cột chứa giá trị thay vì chứa biến
 
 - Giải pháp: Dùng pd.melt()
+
+<img width="913" alt="Ảnh màn hình 2024-06-20 lúc 01 56 32" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/e8ac50db-ff38-4a40-9080-7149ab3e66f8">
+
+**b. Pivoting data (un-melting data)**
+
+- Biến dòng thành cột
+
+- dùng .pivot()
+
+<img width="872" alt="Ảnh màn hình 2024-06-20 lúc 02 00 25" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/e9f5d076-bd58-40b6-85ce-361017e97695">
+
+**d. Phương thức pivot_table**
+
+- LƯU Ý: trong trường hợp marker và metrics là 2 cột có giá trị lặp lại thì có khả năng báo lỗi khi thực hiện phương thức .pivot
+
+<img width="756" alt="Ảnh màn hình 2024-06-20 lúc 02 06 07" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/1eac555a-919f-45ef-8791-4823dfb81adf">
+
+- Trong trường hợp như vậy thì sử dụng phương thức pivot_table có tham số aggfunc chỉ định cách xử lý trùng lặp giá trị. Ví dụ: Có thể tổng hợp các giá trị trùng lặp bằng cách lấy trung bình cộng (np.mean)
+
+<img width="658" alt="Ảnh màn hình 2024-06-20 lúc 02 09 23" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/6cba2ceb-cec8-42d6-a330-ab7289808523">
 
 ## Bài 6: Natural Language Processing (8/6/2024)
 
