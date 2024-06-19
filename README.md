@@ -584,7 +584,40 @@ https://pypi.org/project/ttth-mds5-analyzer/
 
 - Nếu một tính năng trong bộ dữ liệu có quy mô lớn so với các tính năng khác thì trong các thuật toán được đo bằng khoảng cách Euclide, tính năng có tỷ lệ lớn sẽ trở nên thống trị và cần được chuẩn hóa →dùng Feature scaling giúp cân đối các tính năng.
 
-![Uploading Ảnh màn hình 2024-06-20 lúc 00.18.12.png…]()
+<img width="723" alt="Ảnh màn hình 2024-06-20 lúc 00 19 20" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/5e5013ba-37be-4ce1-b17f-64d28d6bccbf">
+
+<img width="666" alt="Ảnh màn hình 2024-06-20 lúc 00 19 41" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/c18573b5-060f-4812-a239-fc9b2408e8a6">
+
+**a. Standard Scaler**
+
+- Dùng standard scaler khi chúng ta có phân phối Gaussian
+
+- Sau khi dùng standard scaler thì có phân phối chuẩn tắc (standard normal distribution)
+
+- standard normal distribution có ý nghĩa là trung bình là 0, độ lệch chuẩn là 1
+
+- khi áp dụng standard scaler thì có thể áp dụng cho nhiều cột (truyền nguyên df và standard scaler sẽ tự chọn ra các cột số để chuẩn hoá)
+
+<img width="783" alt="Ảnh màn hình 2024-06-20 lúc 00 28 34" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/990d4103-4ac2-47c7-8d36-df93b3e73262">
+
+<img width="797" alt="Ảnh màn hình 2024-06-20 lúc 00 41 55" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/6543f5b6-bc94-4075-b81b-f9c68a5bed64">
+
+**b. MinMaxScaler**
+- Nếu dữ liệu không phải phân phối chuẩn, không có outlier thì dùng min max scaler
+
+**c. RobustScaler**
+
+- Sử dụng khi dữ liệu không phải phân phối chuẩn, có các ngoại lệ trong dữ liệu 
+
+<img width="691" alt="Ảnh màn hình 2024-06-20 lúc 00 42 54" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/533b88ba-ba47-4069-b144-ba2df04512a6">
+
+**d. Binarizer**
+
+- > ngưỡng ánh xạ thành 0, <= ngưỡng thì ánh xạ = 1
+
+- Tự định nghĩa ngưỡng
+
+## Bài 5: Feature Engineering (8/6/2024)
 
 ### 4. Chuyển dạng dữ liệu (Data Transformation)
 
@@ -598,7 +631,7 @@ https://pypi.org/project/ttth-mds5-analyzer/
 
 - Giải pháp: Dùng pd.melt()
 
-## Bài 6: Natural Language Processing (5/6/2024)
+## Bài 6: Natural Language Processing (8/6/2024)
 
 ### 1. Tổng quan
 
