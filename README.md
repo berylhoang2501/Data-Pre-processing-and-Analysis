@@ -403,6 +403,11 @@ function name: có thể là clean_headers), clean_date(), clean_text), clean_df
 
 ### B. Phân tích hai biến
 
+### Kiểm định cho 2 biến thì có thể dùng T-test
+
+### Kiểm định cho 2 biến trở lên thì dùng ANOVA
+
+
 - Tìm ra mối quan hệ giữa hai biến: tìm kiếm sự liên kết (association) và không liên kết (disassociation) giữa các biến ở mức ý nghĩa được xác định trước.
 
 **Có thể thực hiện cho bất kỳ sự kết hợp nào của các biến phân loại và liên tục**
