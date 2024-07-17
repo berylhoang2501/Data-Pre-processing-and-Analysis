@@ -577,6 +577,8 @@ https://pypi.org/project/ttth-mds5-analyzer/
 
 **Log normalization**
 
+- Mục đích: log normalization thường được sử dụng để xử lý các giá trị có sự phân phối lệch hoặc có sự chênh lệch lớn. Nó giúp làm giảm tác động của các giá trị ngoại lệ (outliers) và biến đổi các giá trị sao cho chúng phân phối đều hơn.
+
 - Dùng log để chuẩn hoá 1 biến số khi biến số có phương sai cao/khi đo skew thấy biến số bị lệch phải nhiều/Dữ liệu có các outlier (dùng boxplot để thấy outlier)
 
 - Ví dụ-> sau khi dùng log chúng ta đã thấy đc 2 biến này có mối quan hệ tuyến tính
@@ -584,6 +586,8 @@ https://pypi.org/project/ttth-mds5-analyzer/
 <img width="1166" alt="Ảnh màn hình 2024-06-19 lúc 21 09 13" src="https://github.com/berylhoang2501/Data-Pre-processing-and-Analysis/assets/152646327/6227b643-0571-4875-9ccf-64aae778605b">
 
 **Feature Scaling**
+
+- Mục đích: Feature scaling được sử dụng để đảm bảo rằng tất cả các đặc trưng (features) có cùng mức độ quan trọng trong các thuật toán học máy, đặc biệt là các thuật toán nhạy cảm với tỉ lệ như SVM, KNN, và mạng nơ-ron.
 
 - rút tỉ lệ về cho nhỏ và phù hợp hơn, không còn chênh lệch nhiều
 
