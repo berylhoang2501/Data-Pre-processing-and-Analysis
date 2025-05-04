@@ -688,6 +688,27 @@ https://pypi.org/project/ttth-mds5-analyzer/
 
 ### 5. Tiền xử lý tài liệu tiếng Việt
 
+- Tokenizer: Là một công cụ từ tensorflow.keras dùng để token hóa văn bản, tức là chuyển đổi các từ trong văn bản thành các số nguyên (token IDs) để mô hình máy học có thể xử lý.
+
+Ví dụ:
+
+Bình luận: "tôi rất tốt" → [1, 2, 3] (dựa trên từ điển giả định ở trên).
+
+Bình luận: "tôi tốt" → [1, 3].
+
+- pad_sequences: Là hàm dùng để chuẩn hóa độ dài của các chuỗi số (sequences) đã được token hóa, đảm bảo tất cả các chuỗi có cùng độ dài bằng cách thêm đệm (padding) hoặc cắt ngắn (truncation).
+
+Chuỗi: ["I", "love", "NLP"] (dài 3 token).
+
+Padding đến độ dài 5: ["I", "love", "NLP", "[PAD]", "[PAD]"].
+
+Chuỗi: ["I", "love", "to", "learn", "NLP", "and", "AI"] (dài 7 token).
+
+Truncation đến độ dài 5: ["I", "love", "to", "learn", "NLP"].
+
+#### Thư viện underthesea.word_tokenize
+- word_tokenize từ thư viện underthesea là công cụ tách từ (word segmentation) chuyên biệt cho tiếng Việt, nhận diện các cụm từ ghép như "tẩy trang", "sản phẩm".
+
 ## Bài 7: Linear Regression (9/6/2024)
 
 - ref: nguyễn vân tuấn, lê thị kim ánh, đặng thế khoa, khuất thị 
